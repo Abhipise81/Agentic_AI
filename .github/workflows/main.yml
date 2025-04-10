@@ -4,7 +4,7 @@ on:
     branches: [main]
 
     # to run this workflow manullay from the Actions
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs: 
   sync-to-hub:
