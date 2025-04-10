@@ -1,7 +1,7 @@
 name: Sync to Hugging face Space
 on: 
   push:
-    branches: [main]
+    branches: [master]
 
     # to run this workflow manullay from the Actions
   workflow_dispatch:
