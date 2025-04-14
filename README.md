@@ -21,7 +21,10 @@ Basic chat bot and chatbot with tools
 
 A simple chatbot implementation demonstrating fundamental conversational AI principles.
 
+Basic chatbot Usage
 ![Basic Chatbot Demo](assets/basicChatbot.png)
+
+Chatbot with tools Usage
 ![Chatbot with tool](assets/chatbotwithTool.png)
 
 ## Overview
