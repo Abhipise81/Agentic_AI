@@ -15,3 +15,4 @@ short_description: Refined langgraphAgenticAI
 
 The project is in development
 
+Basic chat bot and chatbot with tools 

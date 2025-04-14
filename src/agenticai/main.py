@@ -16,9 +16,12 @@ def load_langgraph_agenticai_app():
     # Load UI
     ui = LoadStreamLitUI()
     user_input = ui.load_streamlit_ui()
+    # print(user_input,"aaaa")
+    
 
     if not user_input:
         st.error("Error: Failed to load user input from the UI.")
+        return
 
     # Text Input for user message
     if st.session_state.IsFetchButtonClicked:
@@ -29,7 +32,7 @@ def load_langgraph_agenticai_app():
     if user_message:
         try:
             # Configure LLM
-            obj_llm_config = GroqLLM(user_controls_inputs=user_input)
+            obj_llm_config = GroqLLM(user_controls_input=user_input)
             model = obj_llm_config.get_llm_model()
     
             if not model:

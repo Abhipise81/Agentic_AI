@@ -8,4 +8,5 @@ class State(TypedDict):
     """
     Represnts the structures opf the state used in the graph
     """
+
     messages: Annotated[List, add_messages]
